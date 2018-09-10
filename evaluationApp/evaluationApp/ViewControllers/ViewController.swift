@@ -198,6 +198,7 @@ extension ViewController: UITableViewDelegate{
 }
 
 //MARK: UITableViewController datasource methods
+// moj drugi nowy komentarz
 extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myArray.count
@@ -215,6 +216,7 @@ extension ViewController: UITableViewDataSource{
 }
 
 //MARK: UIDevice extension
+//Moj nowy komentarz
 public extension UIDevice {
     static func getModelIdentifier() -> String {
         if let simulatorModelIdentifier = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] { return simulatorModelIdentifier }
